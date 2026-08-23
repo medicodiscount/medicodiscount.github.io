@@ -4,11 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Medico Discount | Medical Education Deals & Resources</title>
+  <title>Cerebellum Academy Coupon Code CEREB1 | Medico Discount</title>
 
   <meta
     name="description"
-    content="Discover medical education deals, coupon codes and useful resources for NEET PG, FMGE and INI-CET preparation."
+    content="Use Cerebellum Academy coupon code CEREB1 to get 10% off on all plans. Explore useful NEET PG, FMGE and INI-CET preparation resources."
   />
 
   <style>
@@ -18,296 +18,501 @@
       box-sizing: border-box;
     }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       font-family: Arial, Helvetica, sans-serif;
-      background: #f5f7fb;
-      color: #172033;
+      background: #f6f8fc;
+      color: #111827;
       line-height: 1.6;
     }
 
-    header {
-      background: #ffffff;
-      border-bottom: 1px solid #e8ebf2;
-      position: sticky;
-      top: 0;
-      z-index: 10;
+    a {
+      text-decoration: none;
+      color: inherit;
     }
 
-    .nav {
-      max-width: 1100px;
+    .container {
+      width: min(1120px, 92%);
       margin: auto;
-      padding: 18px 20px;
+    }
+
+    /* HEADER */
+
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .navbar {
+      min-height: 72px;
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 24px;
     }
 
-    .logo {
-      font-size: 22px;
-      font-weight: 800;
-      color: #173b7a;
-      text-decoration: none;
+    .brand {
+      font-size: 24px;
+      font-weight: 900;
+      color: #0f3d91;
+      letter-spacing: -0.5px;
     }
 
     .nav-links {
       display: flex;
-      gap: 22px;
+      gap: 24px;
+      font-weight: 700;
+      font-size: 15px;
     }
 
-    .nav-links a {
-      text-decoration: none;
-      color: #344054;
-      font-size: 15px;
-      font-weight: 600;
+    .nav-links a:hover {
+      color: #0f5bd8;
     }
+
+    .nav-button {
+      background: #0f5bd8;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 10px;
+      font-weight: 800;
+    }
+
+    /* HERO */
 
     .hero {
-      max-width: 1100px;
-      margin: auto;
-      padding: 80px 20px 55px;
-      text-align: center;
+      background:
+        radial-gradient(circle at top right, #dfeaff 0, transparent 34%),
+        linear-gradient(135deg, #ffffff 0%, #edf4ff 100%);
+      padding: 76px 0 64px;
+      border-bottom: 1px solid #e5e7eb;
     }
 
-    .tag {
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 42px;
+      align-items: center;
+    }
+
+    .eyebrow {
       display: inline-block;
-      background: #eaf1ff;
-      color: #174ea6;
-      padding: 7px 14px;
-      border-radius: 30px;
-      font-size: 14px;
-      font-weight: 700;
-      margin-bottom: 20px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: #dbeafe;
+      color: #0f5bd8;
+      font-size: 13px;
+      font-weight: 900;
+      margin-bottom: 18px;
     }
 
     .hero h1 {
-      font-size: 46px;
-      line-height: 1.15;
-      max-width: 820px;
-      margin: auto;
-      color: #102a56;
+      font-size: clamp(42px, 6vw, 68px);
+      line-height: 1.04;
+      letter-spacing: -2px;
+      max-width: 760px;
+      color: #0f172a;
     }
 
-    .hero p {
-      max-width: 720px;
-      margin: 20px auto 0;
-      font-size: 18px;
-      color: #667085;
+    .hero h1 span {
+      color: #0f5bd8;
     }
 
-    .offer {
-      max-width: 850px;
-      margin: 20px auto 70px;
-      padding: 0 20px;
+    .hero-text {
+      margin-top: 22px;
+      max-width: 700px;
+      color: #5b6474;
+      font-size: 19px;
     }
 
-    .offer-card {
-      background: white;
+    .coupon-card {
+      margin-top: 30px;
+      background: #ffffff;
+      border: 2px solid #0f5bd8;
       border-radius: 20px;
-      padding: 36px;
-      box-shadow: 0 12px 35px rgba(31, 42, 68, 0.08);
-      border: 1px solid #e7eaf0;
+      padding: 24px;
+      box-shadow: 0 18px 50px rgba(15, 91, 216, 0.12);
+      max-width: 620px;
     }
 
-    .offer-label {
+    .coupon-top {
       font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: #64748b;
+      letter-spacing: 1.2px;
+    }
+
+    .coupon-row {
+      margin-top: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .coupon-code {
+      font-size: clamp(38px, 6vw, 58px);
+      font-weight: 1000;
+      letter-spacing: 3px;
+      color: #0f5bd8;
+    }
+
+    .copy-btn {
+      border: none;
+      background: #0f5bd8;
+      color: white;
+      font-weight: 900;
+      padding: 15px 22px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .copy-btn:hover {
+      background: #0b46aa;
+    }
+
+    .status {
+      margin-top: 14px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #dcfce7;
+      color: #15803d;
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 14px;
       font-weight: 800;
-      color: #174ea6;
+    }
+
+    .hero-panel {
+      background: #0f172a;
+      color: white;
+      border-radius: 28px;
+      padding: 36px;
+      min-height: 390px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-shadow: 0 24px 60px rgba(15, 23, 42, 0.14);
+    }
+
+    .hero-panel h2 {
+      font-size: 34px;
+      line-height: 1.15;
+    }
+
+    .hero-panel p {
+      margin-top: 14px;
+      color: #cbd5e1;
+    }
+
+    .hero-panel ul {
+      list-style: none;
+      margin-top: 24px;
+      display: grid;
+      gap: 13px;
+    }
+
+    .hero-panel li {
+      font-weight: 700;
+    }
+
+    .hero-panel li::before {
+      content: "✓";
+      color: #60a5fa;
+      font-weight: 1000;
+      margin-right: 10px;
+    }
+
+    /* QUICK FEATURES */
+
+    .quick-features {
+      margin-top: -28px;
+      position: relative;
+      z-index: 5;
+    }
+
+    .feature-strip {
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 15px 45px rgba(15, 23, 42, 0.08);
+      border: 1px solid #e5e7eb;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      overflow: hidden;
+    }
+
+    .feature {
+      padding: 26px;
+      text-align: center;
+      border-right: 1px solid #e5e7eb;
+    }
+
+    .feature:last-child {
+      border-right: none;
+    }
+
+    .feature strong {
+      display: block;
+      font-size: 17px;
+      margin-bottom: 5px;
+    }
+
+    .feature span {
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    /* SECTIONS */
+
+    section {
+      padding: 82px 0;
+    }
+
+    .section-heading {
+      text-align: center;
+      margin-bottom: 42px;
+    }
+
+    .section-heading small {
+      color: #0f5bd8;
+      font-weight: 900;
       text-transform: uppercase;
       letter-spacing: 1px;
     }
 
-    .offer-card h2 {
-      font-size: 28px;
-      margin: 8px 0;
-      color: #172033;
-    }
-
-    .offer-card p {
-      color: #667085;
-      margin-bottom: 22px;
-    }
-
-    .coupon-box {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 15px;
-      background: #f6f8fc;
-      border: 2px dashed #b8c4db;
-      border-radius: 14px;
-      padding: 18px;
-    }
-
-    .coupon-code {
-      font-size: 28px;
-      font-weight: 900;
-      letter-spacing: 2px;
-      color: #173b7a;
-    }
-
-    .copy-btn {
-      background: #173b7a;
-      color: white;
-      border: none;
-      padding: 13px 22px;
-      border-radius: 9px;
-      font-size: 15px;
-      font-weight: 700;
-      cursor: pointer;
-    }
-
-    .copy-btn:hover {
-      background: #102a56;
-    }
-
-    section {
-      max-width: 1100px;
-      margin: auto;
-      padding: 65px 20px;
-    }
-
-    .section-title {
-      text-align: center;
-      margin-bottom: 38px;
-    }
-
-    .section-title h2 {
-      font-size: 32px;
-      color: #102a56;
-    }
-
-    .section-title p {
+    .section-heading h2 {
+      font-size: clamp(32px, 4vw, 46px);
+      line-height: 1.1;
       margin-top: 8px;
-      color: #667085;
+      color: #0f172a;
     }
 
-    .grid {
+    .section-heading p {
+      margin: 12px auto 0;
+      max-width: 700px;
+      color: #64748b;
+    }
+
+    /* STEPS */
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .step-card {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      padding: 28px;
+    }
+
+    .step-number {
+      width: 46px;
+      height: 46px;
+      border-radius: 12px;
+      background: #0f5bd8;
+      color: white;
+      display: grid;
+      place-items: center;
+      font-weight: 900;
+      margin-bottom: 18px;
+    }
+
+    .step-card h3 {
+      font-size: 19px;
+      margin-bottom: 8px;
+    }
+
+    .step-card p {
+      color: #64748b;
+      font-size: 15px;
+    }
+
+    /* EXAMS */
+
+    .exam-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 22px;
     }
 
-    .card {
-      background: white;
-      border-radius: 16px;
-      padding: 26px;
-      border: 1px solid #e7eaf0;
+    .exam-card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 20px;
+      padding: 30px;
     }
 
-    .card h3 {
-      margin-bottom: 8px;
-      color: #172033;
+    .exam-card h3 {
+      font-size: 24px;
+      color: #0f3d91;
     }
 
-    .card p {
-      color: #667085;
-      font-size: 15px;
+    .exam-card p {
+      margin-top: 10px;
+      color: #64748b;
     }
 
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 18px;
-    }
+    /* FAQ */
 
-    .step {
-      text-align: center;
-      background: white;
-      border-radius: 15px;
-      padding: 26px 18px;
-      border: 1px solid #e7eaf0;
-    }
-
-    .number {
-      width: 42px;
-      height: 42px;
-      margin: 0 auto 15px;
-      background: #173b7a;
-      color: white;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 800;
-    }
-
-    .faq {
-      max-width: 850px;
+    .faq-wrap {
+      max-width: 860px;
+      margin: auto;
     }
 
     details {
       background: white;
-      padding: 20px;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
       margin-bottom: 14px;
-      border-radius: 12px;
-      border: 1px solid #e7eaf0;
+      padding: 20px 22px;
     }
 
     summary {
       cursor: pointer;
-      font-weight: 700;
-      color: #172033;
+      font-weight: 900;
+      font-size: 17px;
     }
 
     details p {
       margin-top: 12px;
-      color: #667085;
+      color: #64748b;
     }
 
-    .about {
-      background: #102a56;
+    /* CTA */
+
+    .cta {
+      background: #0f5bd8;
       color: white;
-      max-width: none;
-    }
-
-    .about-inner {
-      max-width: 900px;
-      margin: auto;
-      padding: 60px 20px;
+      border-radius: 28px;
+      padding: 52px 34px;
       text-align: center;
     }
 
-    .about h2 {
-      font-size: 30px;
-      margin-bottom: 15px;
+    .cta h2 {
+      font-size: clamp(34px, 5vw, 52px);
+      line-height: 1.1;
     }
 
-    .about p {
-      color: #d8e0ef;
+    .cta p {
+      margin: 14px auto 0;
+      max-width: 680px;
+      color: #dbeafe;
+      font-size: 18px;
     }
+
+    .cta-code {
+      display: inline-block;
+      margin-top: 24px;
+      background: white;
+      color: #0f5bd8;
+      border-radius: 14px;
+      padding: 14px 24px;
+      font-size: 30px;
+      font-weight: 1000;
+      letter-spacing: 2px;
+    }
+
+    /* ABOUT */
+
+    .about-box {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 24px;
+      padding: 42px;
+    }
+
+    .about-box h2 {
+      font-size: 34px;
+      margin-bottom: 14px;
+    }
+
+    .about-box p {
+      color: #64748b;
+      max-width: 850px;
+    }
+
+    /* FOOTER */
 
     footer {
-      background: #081a38;
-      color: #aebbd0;
-      text-align: center;
-      padding: 25px 20px;
+      background: #081426;
+      color: #cbd5e1;
+      padding: 34px 0;
+      margin-top: 20px;
+    }
+
+    .footer-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      flex-wrap: wrap;
       font-size: 14px;
     }
 
-    @media (max-width: 800px) {
-      .hero h1 {
-        font-size: 35px;
-      }
+    /* MOBILE */
 
-      .grid,
-      .steps {
-        grid-template-columns: 1fr;
-      }
-
-      .nav-links {
+    @media (max-width: 900px) {
+      .nav-links,
+      .nav-button {
         display: none;
       }
 
-      .coupon-box {
-        flex-direction: column;
+      .hero-grid {
+        grid-template-columns: 1fr;
       }
 
-      .coupon-code {
-        font-size: 25px;
+      .hero-panel {
+        min-height: auto;
+      }
+
+      .feature-strip,
+      .steps,
+      .exam-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        padding-top: 48px;
+      }
+
+      .hero h1 {
+        font-size: 42px;
+      }
+
+      .coupon-row {
+        flex-direction: column;
+        align-items: stretch;
       }
 
       .copy-btn {
         width: 100%;
+      }
+
+      .feature-strip,
+      .steps,
+      .exam-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .feature {
+        border-right: none;
+        border-bottom: 1px solid #e5e7eb;
+      }
+
+      .feature:last-child {
+        border-bottom: none;
       }
     }
   </style>
@@ -316,176 +521,262 @@
 <body>
 
   <header>
-    <div class="nav">
-      <a href="#" class="logo">Medico Discount</a>
+    <div class="container navbar">
+      <a class="brand" href="#">MEDICO DISCOUNT</a>
 
-      <div class="nav-links">
-        <a href="#deals">Deals</a>
-        <a href="#guides">Guides</a>
+      <nav class="nav-links">
+        <a href="#offer">Offer</a>
+        <a href="#how">How to Use</a>
+        <a href="#exams">Exams</a>
         <a href="#faq">FAQ</a>
         <a href="#about">About</a>
-      </div>
+      </nav>
+
+      <a class="nav-button" href="#offer">Use CEREB1</a>
     </div>
   </header>
 
   <main>
 
-    <div class="hero">
-      <span class="tag">For Medical Students</span>
+    <section class="hero" id="offer">
+      <div class="container hero-grid">
 
-      <h1>Smart Deals for Smarter Medical Exam Preparation</h1>
+        <div>
+          <span class="eyebrow">Cerebellum Academy Discount</span>
 
-      <p>
-        Discover medical education discounts, coupon codes and useful
-        resources for NEET PG, FMGE and INI-CET preparation.
-      </p>
-    </div>
+          <h1>
+            SAVE MORE ON YOUR
+            <span>MEDICAL EXAM PREPARATION</span>
+          </h1>
 
-    <div class="offer">
-      <div class="offer-card">
-        <div class="offer-label">Featured Offer</div>
-
-        <h2>Cerebellum Academy Discount Code</h2>
-
-        <p>
-          Planning to subscribe to Cerebellum Academy? You can try the
-          coupon code below while purchasing an eligible plan.
-        </p>
-
-        <div class="coupon-box">
-          <div class="coupon-code" id="coupon">CEREB1</div>
-
-          <button class="copy-btn" onclick="copyCoupon()">
-            Copy Code
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <section id="deals">
-      <div class="section-title">
-        <h2>Medical Education Deals</h2>
-        <p>Explore useful offers and preparation resources.</p>
-      </div>
-
-      <div class="grid">
-
-        <div class="card">
-          <h3>Cerebellum Academy</h3>
-          <p>
-            Check available subscription options and apply CEREB1
-            during checkout where applicable.
+          <p class="hero-text">
+            Looking for a Cerebellum Academy coupon code?
+            Use <strong>CEREB1</strong> and get
+            <strong>10% off on all Cerebellum Academy plans.</strong>
           </p>
+
+          <div class="coupon-card">
+            <div class="coupon-top">Coupon Code</div>
+
+            <div class="coupon-row">
+              <div class="coupon-code" id="coupon">CEREB1</div>
+
+              <button class="copy-btn" onclick="copyCoupon()">
+                Copy Code
+              </button>
+            </div>
+
+            <div class="status">
+              ✓ 10% OFF on all plans
+            </div>
+          </div>
         </div>
 
-        <div class="card">
-          <h3>NEET PG Resources</h3>
-          <p>
-            Discover useful preparation resources, revision tools and
-            study-related guides.
-          </p>
-        </div>
+        <div class="hero-panel">
+          <h2>One code. Smarter savings.</h2>
 
-        <div class="card">
-          <h3>FMGE Resources</h3>
           <p>
-            Find useful information and resources for students
-            preparing for the FMGE examination.
+            Save on your medical exam preparation with a simple coupon code.
           </p>
+
+          <ul>
+            <li>10% discount</li>
+            <li>Applicable on all plans</li>
+            <li>Easy to apply at checkout</li>
+            <li>Useful for medical exam aspirants</li>
+          </ul>
         </div>
 
       </div>
     </section>
 
-    <section id="guides">
-      <div class="section-title">
-        <h2>How to Use a Coupon Code</h2>
-        <p>A simple four-step process.</p>
-      </div>
+    <div class="quick-features">
+      <div class="container feature-strip">
 
-      <div class="steps">
-
-        <div class="step">
-          <div class="number">1</div>
-          <h3>Choose a Plan</h3>
-          <p>Select the subscription plan you want.</p>
+        <div class="feature">
+          <strong>10% OFF</strong>
+          <span>Instant saving</span>
         </div>
 
-        <div class="step">
-          <div class="number">2</div>
-          <h3>Proceed to Checkout</h3>
-          <p>Continue to the payment or checkout page.</p>
+        <div class="feature">
+          <strong>All Plans</strong>
+          <span>CEREB1 applies everywhere</span>
         </div>
 
-        <div class="step">
-          <div class="number">3</div>
-          <h3>Enter CEREB1</h3>
-          <p>Enter the coupon code in the available coupon field.</p>
+        <div class="feature">
+          <strong>Simple Code</strong>
+          <span>Use CEREB1 at checkout</span>
         </div>
 
-        <div class="step">
-          <div class="number">4</div>
-          <h3>Check the Offer</h3>
-          <p>Verify the applicable benefit before making payment.</p>
+        <div class="feature">
+          <strong>Medical Focused</strong>
+          <span>For exam aspirants</span>
         </div>
 
-      </div>
-    </section>
-
-    <section class="faq" id="faq">
-      <div class="section-title">
-        <h2>Frequently Asked Questions</h2>
-      </div>
-
-      <details>
-        <summary>What is the Cerebellum Academy coupon code?</summary>
-        <p>
-          You can try coupon code CEREB1 while subscribing to an
-          eligible Cerebellum Academy plan.
-        </p>
-      </details>
-
-      <details>
-        <summary>Where do I enter CEREB1?</summary>
-        <p>
-          Enter the code in the coupon or promo-code field available
-          during the subscription checkout process.
-        </p>
-      </details>
-
-      <details>
-        <summary>Will the coupon work on every plan?</summary>
-        <p>
-          Eligibility and benefits can vary by plan or current offer.
-          Always verify the final price during checkout before payment.
-        </p>
-      </details>
-
-      <details>
-        <summary>Is Medico Discount an official Cerebellum Academy website?</summary>
-        <p>
-          No. Medico Discount is an independent informational website
-          and is not the official website of Cerebellum Academy.
-        </p>
-      </details>
-    </section>
-
-    <div class="about" id="about">
-      <div class="about-inner">
-        <h2>About Medico Discount</h2>
-
-        <p>
-          Medico Discount is an independent resource created to help
-          medical students discover useful education deals, coupon
-          codes and preparation-related information in one place.
-        </p>
       </div>
     </div>
+
+    <section id="how">
+      <div class="container">
+
+        <div class="section-heading">
+          <small>How it works</small>
+          <h2>Use CEREB1 in 4 Simple Steps</h2>
+          <p>
+            Apply the coupon during your Cerebellum Academy subscription.
+          </p>
+        </div>
+
+        <div class="steps">
+
+          <div class="step-card">
+            <div class="step-number">1</div>
+            <h3>Choose Your Plan</h3>
+            <p>Select the Cerebellum Academy plan you want to purchase.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">2</div>
+            <h3>Proceed to Checkout</h3>
+            <p>Continue to the checkout or payment page.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">3</div>
+            <h3>Enter CEREB1</h3>
+            <p>Type CEREB1 in the coupon or promo-code field.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-number">4</div>
+            <h3>Get 10% Off</h3>
+            <p>The discount will be reflected in the final payable amount.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="exams" style="background:#eef4ff;">
+      <div class="container">
+
+        <div class="section-heading">
+          <small>Medical Exam Preparation</small>
+          <h2>Resources for Major Medical Exams</h2>
+        </div>
+
+        <div class="exam-grid">
+
+          <div class="exam-card">
+            <h3>NEET PG</h3>
+            <p>
+              Discover useful preparation resources, revision tools and
+              exam-related information.
+            </p>
+          </div>
+
+          <div class="exam-card">
+            <h3>FMGE</h3>
+            <p>
+              Explore study resources and preparation-related information
+              for FMGE aspirants.
+            </p>
+          </div>
+
+          <div class="exam-card">
+            <h3>INI-CET</h3>
+            <p>
+              Find useful study and revision-related resources for INI-CET
+              preparation.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+
+        <div class="section-heading">
+          <small>FAQ</small>
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <div class="faq-wrap">
+
+          <details>
+            <summary>What is the Cerebellum Academy coupon code?</summary>
+            <p>
+              Use coupon code <strong>CEREB1</strong> to get
+              <strong>10% off</strong> on Cerebellum Academy plans.
+            </p>
+          </details>
+
+          <details>
+            <summary>Does CEREB1 work on all plans?</summary>
+            <p>
+              Yes. <strong>CEREB1 is applicable on all Cerebellum Academy plans</strong>
+              and gives <strong>10% off</strong>.
+            </p>
+          </details>
+
+          <details>
+            <summary>How do I apply CEREB1?</summary>
+            <p>
+              Choose your plan, proceed to checkout, enter
+              <strong>CEREB1</strong> in the coupon code field and apply it.
+              The discount will be reflected in the final payable amount.
+            </p>
+          </details>
+
+          <details>
+            <summary>Where can I enter the CEREB1 coupon code?</summary>
+            <p>
+              Enter <strong>CEREB1</strong> in the coupon or promo-code section
+              while purchasing your plan on the Cerebellum Academy app or website.
+            </p>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="cta">
+          <h2>Save 10% on Your Plan</h2>
+
+          <p>
+            Apply CEREB1 while subscribing to any Cerebellum Academy plan.
+          </p>
+
+          <div class="cta-code">CEREB1</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="about-box">
+          <h2>About Medico Discount</h2>
+
+          <p>
+            Medico Discount is an independent informational website created
+            to help medical students discover useful education-related
+            offers, coupon codes and preparation resources in one place.
+          </p>
+        </div>
+      </div>
+    </section>
 
   </main>
 
   <footer>
-    © 2026 Medico Discount. Independent informational website.
+    <div class="container footer-grid">
+      <span>© 2026 Medico Discount</span>
+      <span>Independent informational website</span>
+    </div>
   </footer>
 
   <script>
@@ -497,7 +788,7 @@
 
       setTimeout(() => {
         button.innerText = "Copy Code";
-      }, 2000);
+      }, 1800);
     }
   </script>
 
