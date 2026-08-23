@@ -16,7 +16,31 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+
+.hero-image-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    border-radius: 18px;
+    box-shadow: 0 24px 60px rgba(15, 23, 42, 0.14);
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .hero-image {
+        max-width: 100%;
+        border-radius: 14px;
     }
+
+    
 
     html {
       scroll-behavior: smooth;
@@ -533,6 +557,12 @@
       </nav>
 
       <a class="nav-button" href="#offer">Use CEREB1</a>
+      <a class="nav-button"
+   href="https://www.cerebellumacademy.com/"
+   target="_blank"
+   rel="noopener noreferrer">
+   Official Cerebellum Website
+</a>
     </div>
   </header>
 
@@ -572,7 +602,13 @@
           </div>
         </div>
 
-        <div class="hero-panel">
+     <div class="hero-image-wrap">
+  <img
+    src="cereb1-coupon-discount.png"
+    alt="Cerebellum Academy coupon code CEREB1 with 10 percent discount on all plans"
+    class="hero-image"
+  >
+</div>
           <h2>One code. Smarter savings.</h2>
 
           <p>
